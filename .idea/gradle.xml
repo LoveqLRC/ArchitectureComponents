@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basesample" />
+            <option value="$PROJECT_DIR$/livedatasample" />
+            <option value="$PROJECT_DIR$/viewmodelsample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
