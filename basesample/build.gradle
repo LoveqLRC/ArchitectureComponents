@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion build_versions.target_sdk
 
 
 
     defaultConfig {
         applicationId "loveq.com.basesample"
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
 

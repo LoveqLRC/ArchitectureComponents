@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArchitectureComponents.iml" filepath="$PROJECT_DIR$/ArchitectureComponents.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baserxjavasample/baserxjavasample.iml" filepath="$PROJECT_DIR$/baserxjavasample/baserxjavasample.iml" />
       <module fileurl="file://$PROJECT_DIR$/basesample/basesample.iml" filepath="$PROJECT_DIR$/basesample/basesample.iml" />
       <module fileurl="file://$PROJECT_DIR$/livedatasample/livedatasample.iml" filepath="$PROJECT_DIR$/livedatasample/livedatasample.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewmodelsample/viewmodelsample.iml" filepath="$PROJECT_DIR$/viewmodelsample/viewmodelsample.iml" />

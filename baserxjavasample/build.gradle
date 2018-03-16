@@ -6,8 +6,8 @@ android {
 
 
     defaultConfig {
-        applicationId "loveq.com.livedatasample"
-        minSdkVersion 16
+        applicationId "com.example.baserxjavasample"
+        minSdkVersion 15
         targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
@@ -37,13 +37,16 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    // Architecture components
-    implementation deps.lifecycle.runtime
-    implementation deps.lifecycle.extensions
-    annotationProcessor deps.lifecycle.compiler
-    implementation deps.room.runtime
-    annotationProcessor deps.room.compiler
 
-    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    // Architecture components
+    compile deps.lifecycle.runtime
+    compile deps.lifecycle.extensions
+    annotationProcessor deps.lifecycle.compiler
+    compile deps.room.runtime
+    annotationProcessor deps.room.compiler
+    compile deps.room.rxjava2
+
+    // RxJava
+    compile deps.rx_android
+    compile deps.rxjava2
 }
