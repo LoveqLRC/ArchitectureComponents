@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import loveq.com.basesample.R;
+import loveq.com.basesample.model.Product;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
                     .add(R.id.fragment_container, fragment, ProductListFragment.TAG).commit();
         }
     }
+
+    public void show(Product product) {
+
+    }
+
 }

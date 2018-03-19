@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/baserxjavasample/baserxjavasample.iml" filepath="$PROJECT_DIR$/baserxjavasample/baserxjavasample.iml" />
       <module fileurl="file://$PROJECT_DIR$/basesample/basesample.iml" filepath="$PROJECT_DIR$/basesample/basesample.iml" />
       <module fileurl="file://$PROJECT_DIR$/livedatasample/livedatasample.iml" filepath="$PROJECT_DIR$/livedatasample/livedatasample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rooomdemo/rooomdemo.iml" filepath="$PROJECT_DIR$/rooomdemo/rooomdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewmodelsample/viewmodelsample.iml" filepath="$PROJECT_DIR$/viewmodelsample/viewmodelsample.iml" />
     </modules>
   </component>

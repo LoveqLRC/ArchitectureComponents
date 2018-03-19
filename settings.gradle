@@ -1,1 +1,1 @@
-include ':app', ':basesample', ':livedatasample', ':viewmodelsample', ':baserxjavasample'
+include ':app', ':basesample', ':livedatasample', ':viewmodelsample', ':baserxjavasample', ':rooomdemo'
