@@ -21,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void show(Product product) {
+        ProductFragment productFragment = ProductFragment.forProduct(product.getId());
+
+        getSupportFragmentManager()
+                .beginTransaction()
+                .addToBackStack("product")
+                .replace(R.id.fragment_container,
+                        productFragment, null)
+                .commit();
 
     }
 

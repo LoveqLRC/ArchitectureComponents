@@ -3,6 +3,7 @@ package loveq.com.basesample.viewmodel;
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
+import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.databinding.ObservableField;
 import android.support.annotation.NonNull;
@@ -63,6 +64,12 @@ public class ProductViewModel extends AndroidViewModel {
             this.mProductId = mProductId;
             mApplication = application;
             mRepository = ((BasicApp) application).getRepository();
+        }
+
+        @NonNull
+        @Override
+        public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
+            return (T) new ProductViewModel(mApplication, mRepository, mProductId);
         }
     }
 

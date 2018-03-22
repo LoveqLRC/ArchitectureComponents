@@ -4,6 +4,7 @@ import android.arch.persistence.room.Embedded;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
+import android.support.annotation.NonNull;
 
 import com.example.rooomdemo.sample1.entity.Address;
 
@@ -17,6 +18,7 @@ import com.example.rooomdemo.sample1.entity.Address;
 public class Person {
     private String name;
     @PrimaryKey
+    @NonNull
     private String mobile;
     private String email;
     @Embedded
